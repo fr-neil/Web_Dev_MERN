@@ -4,11 +4,6 @@
 /*DECLERATION*/
 /*PROPERTY*/
 /*VALUE*/
-h1{
-    color:brown;
-    font-size: 4rem;
-
-}
 .primary{
     color:yellow;
     background-color: grey;
@@ -21,14 +16,12 @@ h1{
     font-family: sans-serif;
     font-weight: bold;
 }
-.primary_para{
-    color: royalblue;
-    font-size: 32px;
-    background-color: darkseagreen;
+div{
+    color: yellow;
+    background-color: grey;
     font-weight: bolder;
 }
-#my-id{
-    color: aqua;
-    font-size: 5rem;
-    background-color: bisque;
+span{
+    text-transform: uppercase;
+    font-weight: bold;
 }
