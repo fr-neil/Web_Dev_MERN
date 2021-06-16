@@ -1,27 +1,15 @@
-/*CSS RULES*/
-/*SELECTORS*/
-/*DECLERATION BLOCK*/
-/*DECLERATION*/
-/*PROPERTY*/
-/*VALUE*/
-.primary{
-    color:yellow;
-    background-color: grey;
-    font-size: 2rem;
+/*INHERITANCE*/
+body{
+    color:slateblue;
+    font-family: monospace;
+    line-height: 1.5em;
+    background-color: cornsilk;
 }
-.secondary{
-    color: blueviolet;
-    background-color:whitesmoke;
-    font-size: 23px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
+/*body is the parent of div as well as p and h2, hence, all child elements gonna inherite parents styles.. but, if we define any specific property to any particular child, that element will use that specific property instead of using it's parents property*/
 div{
-    color: yellow;
-    background-color: grey;
-    font-weight: bolder;
+    color: red;
+    background-color: yellow;
 }
-span{
-    text-transform: uppercase;
-    font-weight: bold;
+h2{
+    color: blue;
 }
