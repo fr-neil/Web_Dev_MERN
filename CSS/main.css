@@ -1,16 +1,34 @@
-h1{
-    color:brown;
-    font-size: 4rem;
-
-}
-h2{
-    color: aquamarine;
-    font-size: 3rem;
-}
-
 /*CSS RULES*/
 /*SELECTORS*/
 /*DECLERATION BLOCK*/
 /*DECLERATION*/
 /*PROPERTY*/
 /*VALUE*/
+h1{
+    color:brown;
+    font-size: 4rem;
+
+}
+.primary{
+    color:yellow;
+    background-color: grey;
+    font-size: 2rem;
+}
+.secondary{
+    color: blueviolet;
+    background-color:whitesmoke;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.primary_para{
+    color: royalblue;
+    font-size: 32px;
+    background-color: darkseagreen;
+    font-weight: bolder;
+}
+#my-id{
+    color: aqua;
+    font-size: 5rem;
+    background-color: bisque;
+}
