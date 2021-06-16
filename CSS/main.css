@@ -1,15 +1,47 @@
-/*INHERITANCE*/
+/*LAST RULE AND SPECIFICITY AND UNIVERSAL SELECTOR*/
+
+/*LAST RULE*/
+/* while using same element with diff properties css will use the last element with properties
+hence css will ignore the fact we already declared this element, but hence we overwritting it css will select the last property declared 
 body{
     color:slateblue;
     font-family: monospace;
-    line-height: 1.5em;
     background-color: cornsilk;
-}
-/*body is the parent of div as well as p and h2, hence, all child elements gonna inherite parents styles.. but, if we define any specific property to any particular child, that element will use that specific property instead of using it's parents property*/
-div{
-    color: red;
-    background-color: yellow;
+
 }
 h2{
     color: blue;
+}
+p{
+    color: red;
+    font-size: 2rem;
+}
+
+p{
+    color: blue;
+    font-size: 3rem;
+    
+}*/
+
+/*SPECIFICITY*/
+/* Now here, as we defined our properties more specific in class, css will use properties defined in class and css will ignore the properties we overwritten in specifc element */
+/*.SPECIFIC{
+    color: red;
+    font-size: 2rem;
+}
+p{
+    color: blue;
+    font-size: 4rem;
+}*/
+
+
+/*UNIVERSAL SELECTOR*/
+/* For universal selector, all elements will change with the properties we defined in universal selector block, but if we define any particular elemnt any specific properties css will use those specific properties for that specific element we wrote */
+p{
+    color:black;
+    background-color: bisque;
+}
+* {
+    color: peru;
+    background-color:grey;
 }
