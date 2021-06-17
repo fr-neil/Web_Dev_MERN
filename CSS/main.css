@@ -1,47 +1,16 @@
-/*LAST RULE AND SPECIFICITY AND UNIVERSAL SELECTOR*/
-
-/*LAST RULE*/
-/* while using same element with diff properties css will use the last element with properties
-hence css will ignore the fact we already declared this element, but hence we overwritting it css will select the last property declared 
+/*RGBA OPACITY AND TRANSPERANCY*/
 body{
-    color:slateblue;
-    font-family: monospace;
-    background-color: cornsilk;
-
+    background: rgb(100, 34,210);
 }
-h2{
-    color: blue;
+#one{
+    color: rgb(45, 45,45);
+    background: rgba(45, 90,180, 0.6);
 }
-p{
-    color: red;
-    font-size: 2rem;
+#two{
+    color: rgb(90, 90, 90);
+    background: rgba(90, 180, 255, 0.24);
 }
-
-p{
-    color: blue;
-    font-size: 3rem;
-    
-}*/
-
-/*SPECIFICITY*/
-/* Now here, as we defined our properties more specific in class, css will use properties defined in class and css will ignore the properties we overwritten in specifc element */
-/*.SPECIFIC{
-    color: red;
-    font-size: 2rem;
-}
-p{
-    color: blue;
-    font-size: 4rem;
-}*/
-
-
-/*UNIVERSAL SELECTOR*/
-/* For universal selector, all elements will change with the properties we defined in universal selector block, but if we define any particular elemnt any specific properties css will use those specific properties for that specific element we wrote */
-p{
-    color:black;
-    background-color: bisque;
-}
-* {
-    color: peru;
-    background-color:grey;
+#three{
+    color: rgb(180, 180, 180);
+    background: rgba(155, 255, 55, 0.15);
 }
