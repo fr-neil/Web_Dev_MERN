@@ -1,16 +1,21 @@
-/*RGBA OPACITY AND TRANSPERANCY*/
+/*HEX VALUES N COLORS*/
 body{
-    background: rgb(100, 34,210);
+    background: #3390EC;
+    font-size: 1.3rem;
 }
 #one{
-    color: rgb(45, 45,45);
-    background: rgba(45, 90,180, 0.6);
+    color: #DBC5D2;
+    background: #DC4E41;
 }
 #two{
-    color: rgb(90, 90, 90);
-    background: rgba(90, 180, 255, 0.24);
+    color: #60A245;
+    background: #FFCD41;
 }
 #three{
-    color: rgb(180, 180, 180);
-    background: rgba(155, 255, 55, 0.15);
+    color: #645AD8;
+    background:#00ACEE;
+}
+.paragraph{
+    color: #645AD8 ;
+    background: #DBC5D2;
 }
