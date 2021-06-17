@@ -1,21 +1,66 @@
-/*HEX VALUES N COLORS*/
-body{
-    background: #3390EC;
-    font-size: 1.3rem;
+/*  CSS UNITS -->
+        WORKING WITH THIS PROPERTIES --> FONT-SIZE, WIDTH, HEIGHT, PIXELS*/
+
+
+/*PIXELS -->
+here, % values will depend on the parent's values, if parents value changes, % values of child will also gonna change 
+.outer{
+    height: 450px;
+    width: 550px;
+    background: purple;
+}        
+.inner{
+    width: 100%;
+    height: 50%;
+    background: peru;
+}*/
+
+        /*-----!!!-----*/
+
+/*em values
+
+em --> depends on parent
+1em --> 16px, default browser style; but we can change the base value, let's see this by using div
+1em --> base  value
+
+div{
+    font-size: 10px;
 }
-#one{
-    color: #DBC5D2;
-    background: #DC4E41;
+.vaibhav{
+    font-size: 3em;
 }
-#two{
-    color: #60A245;
-    background: #FFCD41;
+.yogesh{
+    font-size: 48px;
+}*/
+
+        /*-----!!!-----*/
+
+/*rem 
+rem value --> depends on root; which is value of html tag!!
+1rem --> 16px default browser style
+html{
+    font-size: 10px;
 }
-#three{
-    color: #645AD8;
-    background:#00ACEE;
+.vaibhav{
+    font-size: 3rem;
 }
-.paragraph{
-    color: #645AD8 ;
-    background: #DBC5D2;
+.yogesh{
+    font-size: 48px;
+}*/
+
+        /*-----!!!-----*/
+
+/*
+vh - view-height - percentage of screen
+vw - view-width - percentage of screen
+used for making banners!!
+.banner{
+    width: 75vw;
+    height: 75vh;
+    background: rgb(100, 31, 210);
 }
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}*/
