@@ -79,24 +79,48 @@ used for making banners!!
     min-height: calc(100vh - 100px);
     }*/
 /*font-size and font-family*/
-body{
+/* body{
 	font-family:'Times New Roman', Times, serif;
     }
 h1{
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
-    } 
+    }  */
 /*google fonts*/
-.subheader{
+/* .subheader{
 	font-family: 'yesteryear', cursive;
 	font-style:oblique;
-    }
+    } */
 /*font-weight
 font-style*/
-.one{
+/* .one{
 	font-weight: bolder;
 	font-style:oblique;
     }
 .two{
 	font-weight:600;
 	font-style:italic;
+    } */
+/* text-allign and text-indent */
+body{
+	font-family:'Times New Roman', Times, serif;
+        text-align:right;
+    }
+h1{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align:center;
+    } 
+.subheader{
+	font-family: 'yesteryear', cursive;
+	font-style:oblique;
+    }
+.one{
+	font-weight: bolder;
+	font-style:oblique;
+	text-indent:16px;
+    }  
+.two{
+	font-weight:600;
+	font-style:italic;
+	text-align:left;
+	text-indent:20vw;
     }
