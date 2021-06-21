@@ -64,4 +64,18 @@ used for making banners!!
     height: 100vh;
     background-color: aqua;
 } */
-/*we'll continue from here tomorrow*/
+/*calc function*/
+*{
+    margin: 0;
+    }
+.navbar{
+    background: rgb(100, 31, 210);
+    height: 100px;
+    color: white;
+    font-size: 2rem;
+    }
+.banner{
+    background: black;
+    min-height: calc(100vh - 100px);
+    }
+
