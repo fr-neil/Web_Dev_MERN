@@ -1,126 +1,31 @@
-/*  CSS UNITS -->
-        WORKING WITH THIS PROPERTIES --> FONT-SIZE, WIDTH, HEIGHT, PIXELS*/
-
-
-/*PIXELS -->
-here, % values will depend on the parent's values, if parents value changes, % values of child will also gonna change 
-.outer{
-    height: 450px;
-    width: 550px;
-    background: purple;
-}        
-.inner{
-    width: 100%;
-    height: 50%;
-    background: peru;
-}*/
-
-        /*-----!!!-----*/
-
-/*em values
-
-em --> depends on parent
-1em --> 16px, default browser style; but we can change the base value, let's see this by using div
-1em --> base  value
-
-div{
-    font-size: 10px;
-}
-.vaibhav{
-    font-size: 3em;
-}
-.yogesh{
-    font-size: 48px;
-}*/
-
-        /*-----!!!-----*/
-
-/*rem 
-rem value --> depends on root; which is value of html tag!!
-1rem --> 16px default browser style
-html{
-    font-size: 10px;
-}
-.vaibhav{
-    font-size: 3rem;
-}
-.yogesh{
-    font-size: 48px;
-}*/
-
-        /*-----!!!-----*/
-
-/* 
-vh - view-height - percentage of screen
-vw - view-width - percentage of screen
-used for making banners!!
-.banner{
-    width: 75vw;
-    height: 75vh;
-    background: rgb(100, 31, 210);
-}
-.header{
-    width: 100vw;
-    height: 100vh;
-    background-color: aqua;
-} */
-/*calc function
-*{
-    margin: 0;
-    }
-.navbar{
-    background: rgb(100, 31, 210);
-    height: 100px;
-    color: white;
-    font-size: 2rem;
-    }
-.banner{
-    background: black;
-    min-height: calc(100vh - 100px);
-    }*/
-/*font-size and font-family*/
-/* body{
-	font-family:'Times New Roman', Times, serif;
-    }
-h1{
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }  */
-/*google fonts*/
-/* .subheader{
-	font-family: 'yesteryear', cursive;
-	font-style:oblique;
-    } */
-/*font-weight
-font-style*/
-/* .one{
-	font-weight: bolder;
-	font-style:oblique;
-    }
-.two{
-	font-weight:600;
-	font-style:italic;
-    } */
-/* text-allign and text-indent */
-body{
-	font-family:'Times New Roman', Times, serif;
-        text-align:right;
-    }
-h1{
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-	text-align:center;
-    } 
-.subheader{
-	font-family: 'yesteryear', cursive;
-	font-style:oblique;
-    }
+/*line height
+letter-spacing
+word-spacing
+text-transform
+text-decoration*/
 .one{
-	font-weight: bolder;
-	font-style:oblique;
-	text-indent:16px;
-    }  
+	line-height:2em;
+	letter-spacing:2px;
+	word-spacing:1vh;
+	text-transform:uppercase;
+	/* text-decoration: ; */
+
+}
 .two{
-	font-weight:600;
-	font-style:italic;
-	text-align:left;
-	text-indent:20vw;
-    }
+	
+	line: height 0.5em;;
+	letter-spacing:3px;
+	word-spacing:10px;
+	text-transform:lowercase;
+	text-decoration:underline;
+
+}
+.three{
+	
+	line-height:10em;
+	letter-spacing:30px;
+	word-spacing:100px;
+	text-transform:capitalize;
+	text-decoration:line through;
+
+}
