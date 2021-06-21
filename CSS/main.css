@@ -64,7 +64,7 @@ used for making banners!!
     height: 100vh;
     background-color: aqua;
 } */
-/*calc function*/
+/*calc function
 *{
     margin: 0;
     }
@@ -77,5 +77,26 @@ used for making banners!!
 .banner{
     background: black;
     min-height: calc(100vh - 100px);
+    }*/
+/*font-size and font-family*/
+body{
+	font-family:'Times New Roman', Times, serif;
     }
-
+h1{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+    } 
+/*google fonts*/
+.subheader{
+	font-family: 'yesteryear', cursive;
+	font-style:oblique;
+    }
+/*font-weight
+font-style*/
+.one{
+	font-weight: bolder;
+	font-style:oblique;
+    }
+.two{
+	font-weight:600;
+	font-style:italic;
+    }
