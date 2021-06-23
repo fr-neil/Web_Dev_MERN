@@ -1,21 +1,21 @@
-.test{
-	margin: 5rem;
-}
-a{
-	background: red;
-	text-decoration: none;
-	padding: 2rem 3rem;
-	color: black;
-	text-transform: uppercase;
-	cursor: pointer;
-	margin: 2rem;
-}
-#one{
-	border: 5px solid peru;
+/* display -->
+block
+inline
+inline-box
+box-sizing: border-box */
 
+/* block : always starts a new line and takes full width
+inline : does not starts new line and inly take as much as content space */
+
+.block{
+	background: blue;
+	color: white;
+	/* display: inline; */
+	
 }
-#two{
-	outline: 5px solid peru;
-	/* outline-offset: 10px; */
-	outline-offset: -10px;
+/* dispaly property switches the style for element, from block to inline and vice versa */
+.inline{
+	background: red;
+	color:peru;
+	/* display:block; */
 }
