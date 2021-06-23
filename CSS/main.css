@@ -45,12 +45,21 @@ p{
 	border-color: rbg(100, 31, 210);
 
 }*/
-p{
+/* p{
 	background:blue;
 	padding:20px;
 	border:15px solid peru;
 	border-bottom-color:black;
 	border-bottom-style:dashed;
 	border-bottom-width:5px;
-}
+} */
+/* border radius
+   negative margin */
+/* p{
+	background: blue;
+	padding: 20px;
+	border:15px dashed green;
+	border-radius: 50%;
+	margin: -30px;
+} */
 
