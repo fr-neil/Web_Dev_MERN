@@ -1,31 +1,56 @@
-/*line height
-letter-spacing
-word-spacing
-text-transform
-text-decoration*/
-.one{
-	line-height:2em;
-	letter-spacing:2px;
-	word-spacing:1vh;
-	text-transform:uppercase;
-	/* text-decoration: ; */
+/*css box model
+padding
+margin
+border*/
 
-}
-.two{
-	
-	line: height 0.5em;;
-	letter-spacing:3px;
-	word-spacing:10px;
-	text-transform:lowercase;
-	text-decoration:underline;
+/*h1{
+	background: red;
+	padding-top:20px;
+	padding-bottom:30px;
+	padding-left: 40px;
+	padding-right:50;
+}*/
+/*p{
+	background:blue;
+	/*padding:50 px;*/
+	/*all values of padding, even if we didn't defn, all will have 50px. like, top, botto, left, right...*/
+	/*padding:40px 60px ;*/
+	/*here, first vcalue reprents, top-bottom padding, and second value represents left-right padding*/
+	/*padding: 30px 40px 50px 70px;*/
+	/*first value --> top
+	second value --> right 
+	third value --> bottom and vice versa*/
+/*}*/
 
-}
-.three{
-	
-	line-height:10em;
-	letter-spacing:30px;
-	word-spacing:100px;
-	text-transform:capitalize;
-	text-decoration:line through;
 
+/*-----  margin -----*/
+
+/*h1{
+	background:red;
+	padding:20px;
+	margin-top:10px;
+	margin-bottom:30px;
+	margin-left:40px;
+	margin-right:50px;
+	border-style:dotted;
+	border-width:20px;
+	border-color:peru;
 }
+p{
+	background:blue;
+	padding:30px;
+	margin:0px 20px 20px 30px;
+	border-style: solid;
+	border-width:10px;
+	border-color: rbg(100, 31, 210);
+
+}*/
+p{
+	background:blue;
+	padding:20px;
+	border:15px solid peru;
+	border-bottom-color:black;
+	border-bottom-style:dashed;
+	border-bottom-width:5px;
+}
+
