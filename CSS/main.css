@@ -1,65 +1,21 @@
-/*css box model
-padding
-margin
-border*/
-
-/*h1{
-	background: red;
-	padding-top:20px;
-	padding-bottom:30px;
-	padding-left: 40px;
-	padding-right:50;
-}*/
-/*p{
-	background:blue;
-	/*padding:50 px;*/
-	/*all values of padding, even if we didn't defn, all will have 50px. like, top, botto, left, right...*/
-	/*padding:40px 60px ;*/
-	/*here, first vcalue reprents, top-bottom padding, and second value represents left-right padding*/
-	/*padding: 30px 40px 50px 70px;*/
-	/*first value --> top
-	second value --> right 
-	third value --> bottom and vice versa*/
-/*}*/
-
-
-/*-----  margin -----*/
-
-/*h1{
-	background:red;
-	padding:20px;
-	margin-top:10px;
-	margin-bottom:30px;
-	margin-left:40px;
-	margin-right:50px;
-	border-style:dotted;
-	border-width:20px;
-	border-color:peru;
+.test{
+	margin: 5rem;
 }
-p{
-	background:blue;
-	padding:30px;
-	margin:0px 20px 20px 30px;
-	border-style: solid;
-	border-width:10px;
-	border-color: rbg(100, 31, 210);
+a{
+	background: red;
+	text-decoration: none;
+	padding: 2rem 3rem;
+	color: black;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 2rem;
+}
+#one{
+	border: 5px solid peru;
 
-}*/
-/* p{
-	background:blue;
-	padding:20px;
-	border:15px solid peru;
-	border-bottom-color:black;
-	border-bottom-style:dashed;
-	border-bottom-width:5px;
-} */
-/* border radius
-   negative margin */
-/* p{
-	background: blue;
-	padding: 20px;
-	border:15px dashed green;
-	border-radius: 50%;
-	margin: -30px;
-} */
-
+}
+#two{
+	outline: 5px solid peru;
+	/* outline-offset: 10px; */
+	outline-offset: -10px;
+}
