@@ -1,21 +1,22 @@
-/* display -->
-block
-inline
-inline-box
-box-sizing: border-box */
-
-/* block : always starts a new line and takes full width
-inline : does not starts new line and inly take as much as content space */
-
-.block{
-	background: blue;
-	color: white;
-	/* display: inline; */
-	
+div{
+    background: blue;
+    margin: 12px;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
 }
-/* dispaly property switches the style for element, from block to inline and vice versa */
-.inline{
-	background: red;
-	color:peru;
-	/* display:block; */
+.none{
+    display: none;
+}
+.opacity-0{
+    opacity: 0;
+}
+.opacity-1{
+    opacity: 1;
+}
+.opacity-5{
+    opacity: 0.5;
+}
+.visibility{
+    visibility:hidden
 }
