@@ -1,22 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 div{
-    background: blue;
-    margin: 12px;
-    color: white;
-    font-size: 20px;
-    padding: 2px;
+    min-height: 100vh;
+    color: blue;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-.none{
-    display: none;
-}
-.opacity-0{
-    opacity: 0;
-}
-.opacity-1{
-    opacity: 1;
-}
-.opacity-5{
-    opacity: 0.5;
-}
-.visibility{
-    visibility:hidden
+
+.navbar{
+    background: url(./images/pexels-gianluca-grisenti-4215113.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    border: 3px solid  rebeccapurple;
+    background-position:top;
+    background-attachment:fixed ;
+    /* IMP */
 }
