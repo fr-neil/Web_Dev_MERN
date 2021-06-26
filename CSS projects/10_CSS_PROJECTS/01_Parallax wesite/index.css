@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    
+}
+h2{
+    text-transform: capitalize;
+    display:flex;
+    justify-content: center;
+}
+p{
+    padding-left: 30px;
+    font-size:18px;
+    word-spacing: 1px;
+    line-height: 1.5em;
+}
+.section{
+    min-height: 15px;
+    /* background:#585858; */
+    color:white;
+    padding: 15px;
+    margin: 5px;
+    font-style: normal;
+    letter-spacing: .5rem;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    /* border-width: 10px;
+    border-style:solid;
+    border-color: black; */
+}
+.img-1{
+    min-height:100vh;
+    background: url(./images/img-1.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.light-sec{
+    min-height:35vh;
+    background:#F4F4F4;
+    font-size:20px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    text-transform: capitalize;
+    color: #666666;
+}
+.sec-dark{
+    min-height:33vh;
+    background:#282E34;
+    color:white;
+    font-size:20px;
+    /* background:black; */
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    /* color: #666666; */
+}
+.img-2{
+    min-height:44vh;
+    background: url(./images/img-2.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-3{
+    min-height:44vh;
+    background: url(./images/img-3.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#img-1{
+    min-height:100vh;
+    background: url(./images/img-4.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
