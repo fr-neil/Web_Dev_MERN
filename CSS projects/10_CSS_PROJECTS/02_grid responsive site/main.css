@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Lato",sans-serif;
+}
+h1{
+    font-size:34px;
+}
+p{
+    font-size:18px;
+    line-height:1.5em;
+}
+.header{
+    min-height:450px;
+    background:url(./images/banner.jpg);
+    padding:100px 40px;
+    margin:auto;
+    color:white;
+    text-align:center;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    text-transform:capitalize;
+    opacity:0.9;
+}
+.more_info{
+    min-height:5vh;
+    background:#333;
+    padding:1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+    font-size:22px;
+    display:inline-block;
+}
