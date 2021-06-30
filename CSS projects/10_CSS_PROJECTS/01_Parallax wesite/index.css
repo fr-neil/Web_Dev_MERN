@@ -1,7 +1,7 @@
 *{
     margin:0;
     box-sizing:border-box;
-    font-family: "Lato", sans-serif;
+    font-family:"Lato",sans-serif;
 }
 h2{
     text-transform:capitalize;
@@ -10,7 +10,6 @@ h2{
 }
 p{
     padding-left:30px;
-
     word-spacing:1px;
     line-height:1.5em;
 }
