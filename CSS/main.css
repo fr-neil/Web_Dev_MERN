@@ -1,24 +1,36 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-size: border-box;
 }
-div{
-    min-height: 100vh;
-    color: blue;
-    font-size: 60px;
-    display: flex;
+#main{
+    background: url(./images/pexels-gianluca-grisenti-4215113.jpg);
+    background-size:cover;
+    font-size: 100px;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    color: aquamarine;
+    text-transform: uppercase;
 }
-
-.navbar{
-    background: url(./images/pexels-gianluca-grisenti-4215113.jpg);
-    background-size: cover;
-    background-repeat:no-repeat;
-    border: 3px solid  rebeccapurple;
-    background-position:top;
-    background-attachment:fixed ;
-    /* IMP */
+.header{
+    background:linear-gradient(rgb(0,0,0,0.2), rgb(0,0,0,0.2));
+    min-width:50%;
+    position: relative;
+    margin: 0px 10px;
+    height: 100%;
+    font-size: 30px;
+}
+.content{
+    font-size: 30px;
+}
+#button{
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
