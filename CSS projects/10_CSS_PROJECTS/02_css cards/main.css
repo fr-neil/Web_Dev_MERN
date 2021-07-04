@@ -1,0 +1,67 @@
+body{
+    background: #212121;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow:hidden;
+    margin: 10;
+    min-width:250px;
+    max-width:310px;
+    width:100%;
+    background: #fff;
+    color: #212121;
+    text-align:center;
+    font-size: 16px;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.15);
+}
+.card *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.card .profile-img{
+    padding: 15% 10% 0;
+}
+.card .profile-img img{
+    max-width: 100%;
+    vertical-align: top;
+    position:relative;
+    border-radius:50%;
+    max-width: 40%;
+}
+.card figcaption{
+    padding: 5% 10% 15%;
+}
+.card h3
+{
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+}
+.card h5{
+    font-weight: 400;
+    margin:0;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: 1px;
+}
+.card .icons i{
+    color:#212121;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+.card .icons i:hover{
+    color:#555;
+}
+.card .icons a{
+    text-decoration: none;
+}
