@@ -6,32 +6,34 @@
 div{
     width: 250px;
     height: 250px;
-    background: peru;
+    background: #EAF8BF;
     margin: 20px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    display: inline-block;
+    display:flex;
     font-size: 2rem;
     color: #fff;
+    text-transform: uppercase;
+    font-family: fantasy;
 }
 div:hover{
     transition: all 5s;
     transform:translateX(100vw);
 }
 .linear{
-    background: black;
-    transition-timing-function: linear;
+    background: #E63946;
+    transition-timing-function:linear;
 }
 .ease-in{
     background: linear-gradient(rgb(100,31,210), rgb(25,34,15));
     transition-timing-function: ease-in;
 }
 .ease-out{
-    background: black;
+    background: #C6D4FF;
     transition-timing-function: ease-out;
 }
 .ease-in-out{
-    background: black;
+    background:#094D92;
     transition-timing-function: ease-in-out;
 }
