@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 body{
     font-family: 'Roboto', sans-serif;
