@@ -38,8 +38,7 @@ body{
 .card figcaption{
     padding: 5% 10% 15%;
 }
-.card h3
-{
+.card h3{
     font-family: 'Oswald';
     font-size: 20px;
     font-weight: 400;
