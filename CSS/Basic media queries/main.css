@@ -1,0 +1,19 @@
+/* media queries starts here.. */
+/* desktop screen */
+@media (max-width:992px){
+    .container{
+        width:700px;
+    }
+}
+/* tablet screen */
+@media (max-width:768px){
+    .container{
+        width:500px;
+    }
+}
+/* mobile screen  */
+@media (max-width:480px){
+    .container{
+        width:350px;
+    }
+}
