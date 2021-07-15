@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --banner-clr: rgb(59,89,152);
+    --banner-font-clr: white;
+    --primary-btn-clr:rgb(66,103,178);
+    --bg-clr:rgb(227,230,240);
+    --left-header-clr:rgb(14,56,95);
+    --placeholder-clr:rgb(159,156,154);
+    --links-clr:rgb(59,89,152);
+    --secondary-btn-clr:rgb(94,153,75);
+}
