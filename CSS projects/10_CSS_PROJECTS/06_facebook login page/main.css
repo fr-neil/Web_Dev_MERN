@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* declaring some global variables */
 :root{
     --banner-clr: rgb(59,89,152);
     --banner-font-clr: white;
@@ -12,4 +13,243 @@
     --placeholder-clr:rgb(159,156,154);
     --links-clr:rgb(59,89,152);
     --secondary-btn-clr:rgb(94,153,75);
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.nav{
+    background-color: var(--banner-clr);
+    color: var(--banner-font-clr);
+    display: flex;
+    padding: 0.7rem;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+/* media queries starts here.. */
+/* desktop screen */
+@media (max-width:992px){
+    .container{
+        width:700px;
+    }
+}
+/* tablet screen */
+@media (max-width:768px){
+    .container{
+        width:500px;
+        width: 100vw;
+    }
+
+}
+/* mobile screen  */
+@media (max-width:480px){
+    .container{
+        width:350px;
+        width: 100vw;
+    }
+}
+/* styling navbar starts here */
+.container .logo{
+    font-size: 4rem;
+    cursor: pointer;
+    width: 50%;
+    font-weight: bold;
+}
+.container .log-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.container .log-in .email{
+    margin-right: 1rem;
+}
+.container .log-in .email input{
+    padding: 0.2rem;
+    margin: 0.1rem 0;
+    border: 0.2px solid black;
+}
+.container .log-in .email #checkbox{
+    opacity: 0.5;
+    margin-left: 0.2rem;
+}
+.container .log-in .email span{
+    font-size: 0.9rem;
+}
+.container .log-in .password{
+    margin-right: 1rem;
+}
+.container .log-in .password input{
+    padding: 0.2rem;
+    margin: 0.1rem 0;
+    border: 0.2px solid black;
+}
+.container .log-in a{
+    color: white;
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+.container .primary-btn{
+    color: white;
+    background-color: var(--primary-btn-clr);
+    border: 3px solid rgb(59,89,130);
+    padding: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+.container .primary-btn:hover{
+    text-decoration: underline;
+}
+/* navbar styling ends */
+
+/* main content styling starts here */
+.content{
+    background-color: var(--bg-clr);
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .container .right{
+    margin-top: 4rem;
+    color:var(--left-header-clr);
+    overflow: hidden;
+    width: 45%;
+    margin-right: 10%;
+}
+.content .container .right .right-header{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+}
+.content .container .right img{
+    width: 100%;
+    height: 15rem;
+}
+.content .container .left{
+    margin-top:0.5rem;
+    width: 45%;
+    box-sizing: border-box;
+    padding: 0;
+}
+.content .container .left .heading{
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+.content .container .left .description{
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+}
+.content .container .left input{
+    padding: 0.8rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.7rem;
+    border-radius: 5px;
+    border: 0.1px solid grey;
+}
+.content .container .left .name input{
+    width: 41.40%;
+}
+.content .container .left .mail-pass input{ 
+    width: 85%;
+}
+.content .container .left .dob{
+    margin-bottom: 1.5rem;
+}
+.content .container .left .dob .sub-header{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.content .container .left .dob a{
+    color: var(--banner-clr);
+    font-size: 0.9rem;
+}
+.content .container .left .dob #month{
+    padding: 0.2rem;
+}
+.content .container .left .dob #day{
+    padding: 0.2rem;
+}
+.content .container .left .dob #year{
+    padding: 0.2rem;
+}
+.content .container .left .sex input{
+    margin-right: 0.2rem;
+}
+.content .container .left .sex span{
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    font-weight: 600;
+}
+.content .container .left .sex{
+    margin-bottom: 0.5rem;
+}
+.content .container .left .sub-description{
+    width: 78%;
+    color: #757575;
+    margin-bottom: 1.3rem;
+    font-size: 0.9rem;
+}
+.content .container .left .sub-description span{
+    color: var(--banner-clr);
+    cursor: pointer;
+}
+.content .container .left .sub-description span:hover{
+    text-decoration: underline;
+}
+.content .container .left .secondary-btn{
+    background-color: var(--secondary-btn-clr);
+    color: white;
+    padding: 0.5rem 4rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+.content .container .left .secondary-btn:hover{
+    text-decoration: underline;
+}
+.content .container .left hr{
+    width: 85%;
+    margin-bottom: 1rem;
+}
+.content .container .left #promote{
+    font-size: 0.9rem;
+}
+.content .container .left #promote a{
+    color: var(--banner-clr);
+    cursor: pointer;
+    font-weight: bolder;
+}
+.container .footer {
+    width: 95%;
+}
+.container .footer .lang{
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+.container .footer .lang a{
+    margin-right: 0.2rem;
+    color: var(--banner-clr);
+    font-size: 0.9rem;
+}
+.container .footer hr{
+    margin-bottom: 0.4rem;
+}
+.container .footer .links a{
+    margin-right: 1rem;
+    color: var(--banner-clr);
+    font-size: 0.9rem;
+}
+.container .footer .links{
+    margin-bottom: 0.8rem;
 }
