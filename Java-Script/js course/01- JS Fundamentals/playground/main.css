@@ -4,13 +4,16 @@
 }
 body {
   background: rgb(100, 31, 210);
-}
-.heading {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.heading {
   padding: 20rem;
-  line-height: 1.3rem;
+  line-height: 1.3em;
   color: white;
   font-size: 5rem;
+  text-align: center;
+  flex-wrap: wrap;
 }
