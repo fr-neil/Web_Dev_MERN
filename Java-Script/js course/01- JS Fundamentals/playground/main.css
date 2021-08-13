@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(100, 31, 210);
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20rem;
+  line-height: 1.3rem;
+  color: white;
+  font-size: 5rem;
+}
