@@ -4,9 +4,9 @@
 // console.log(`Final average score of Dolphins : ${scoreDolphins.toFixed(3)}
 // Final average score of koalas : ${scoreKoalas.toFixed(3)} `);
 
-// if (scoreDolphins > 100 && scoreDolphins > scoreKoalas){
+// if (scoreDolphins >= 100 && scoreDolphins > scoreKoalas){
 //     console.log(`Dolphins wins the match!`)
-// }else if(scoreDolphins > 100){
+// }else if(scoreKoalas >= 100 && scoreKoalas > scoreDolphins){
 //     console.log(`Koalas wins the match!`)
 // }else if (scoreDolphins === scoreKoalas){
 //     console.log(`Match has been drwan!`)
@@ -20,9 +20,9 @@
 // console.log(`Final average score of Dolphins : ${scoreDolphins.toFixed(3)}
 // Final average score of koalas : ${scoreKoalas.toFixed(3)} `);
 
-// if (scoreDolphins > 100 && scoreDolphins > scoreKoalas){
+// if (scoreDolphins >= 100 && scoreDolphins > scoreKoalas){
 //     console.log(`Dolphins wins the match!`)
-// }else if(scoreDolphins > 100){
+// }else if(scoreKoalas >= 100 && scoreKoalas > scoreDolphins){
 //     console.log(`Koalas wins the match!`)
 // }else if (scoreDolphins === scoreKoalas){
 //     console.log(`Match has been drwan!`)
