@@ -88,7 +88,7 @@ nav {
   gap: 2rem;
 
   /* NOTE This creates the fade in/out anumation */
-  opacity: 0;
+  /* opacity: 0; */
   transition: all 1s;
 }
 
@@ -132,7 +132,7 @@ nav {
 }
 
 .movements__type {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
   font-weight: 500;
   color: #fff;
@@ -150,10 +150,12 @@ nav {
 
 .movements__type--deposit {
   background-image: linear-gradient(to top left, #39b385, #9be15d);
+  padding: 0.2rem 1.8rem;
 }
 
 .movements__type--withdrawal {
   background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+  padding: 0.2rem 1.8rem;
 }
 
 .movements__value {
