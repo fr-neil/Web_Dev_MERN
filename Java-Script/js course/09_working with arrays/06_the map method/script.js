@@ -77,6 +77,7 @@ const displayMovements = function (movements) {
   });
 };
 displayMovements(account1.movements);
+y;
 
 //using map method
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
