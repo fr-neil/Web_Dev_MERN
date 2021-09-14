@@ -81,3 +81,4 @@ displayMovements(account1.movements);
 // filter() method helps us to filter out element which doesn't match to our conditions
 const deposits = account3.movements.filter((mov) => mov > 0);
 console.log(deposits);
+2;
