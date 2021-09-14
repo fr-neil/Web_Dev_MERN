@@ -93,3 +93,20 @@ console.log(movementsUsd);
 
 const movementsUsd1 = movements.map((mov) => mov * eurToUsd);
 console.log(movementsUsd1);
+
+// more examples
+
+console.log(`----- new -----`);
+function daySplit(num) {
+  let arr = [365, 30, 7, 1];
+  let n = num;
+  let ans = [];
+  arr.map((x) => {
+    ans.push(Math.floor(n / x));
+    n %= x;
+  });
+  return ["Years", "Months", "Weeks", "Days"].map(
+    (x, i) => ans[i] + " " + x + ","
+  );
+}
+console.log(...daySplit(452));
