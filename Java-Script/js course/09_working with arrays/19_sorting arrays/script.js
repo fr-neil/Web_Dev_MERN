@@ -285,7 +285,6 @@ console.log(payments); //[4569, 654, 78, 45, 12.12, 0.124, -78, -412]
 payments.sort((a, b) => a - b);
 console.log(payments); //[-412, -78, 0.124, 12.12, 45, 78, 654, 4569]
 
-// event listener
 let sorted = false;
 btnSort.addEventListener(`click`, function (e) {
   e.preventDefault();
