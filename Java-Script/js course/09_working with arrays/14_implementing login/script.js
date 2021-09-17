@@ -123,13 +123,10 @@ btnLogin.addEventListener(`click`, function (e) {
       currentUser.owner.split(" ")[0]
     }`;
     containerApp.style.opacity = 100;
-    inputLoginUsername.value = inputLoginPin.value = " ";
+    inputLoginUsername.value = inputLoginPin.value = "";
     inputLoginPin.blur();
     displayMovements(currentUser.movements);
     calcDisplaySummary(currentUser);
     calcDisplayBal(currentUser.movements);
-  } else {
-    containerApp.style.opacity = 0;
-    labelWelcome.textContent = `Wrong crenditials!`;
   }
 });
