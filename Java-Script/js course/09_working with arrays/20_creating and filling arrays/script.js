@@ -221,7 +221,7 @@ btnClose.addEventListener(`click`, function (e) {
     labelWelcome.textContent = `Log in to get started!`;
   }
 });
-
+console.log(`hola`);
 // Flat() and flatmap() method
 // flat method combines a nested array and gives an single array containing all elements from all nested arrays
 //e.g
