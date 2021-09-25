@@ -51,6 +51,7 @@ const allSections = document.querySelectorAll(`.section`);
 document.getElementById(`section--1`);
 
 // and, getelementsByTagName to select all instances of same id name
+
 const buttons = document.getElementsByTagName(`button`);
 // but, getElementsByTagName returns live html collection
 // html collection updates automatically
@@ -64,6 +65,7 @@ console.log(document.getElementsByClassName(`btn`));
 const message = document.createElement(`div`); // creating an div element
 message.classList.add(`cookie-message`); // adding an already created css class to newly created element
 message.innerHTML = `We use cookies for improved functionality and analytics. <button class = "btn btn--close--cookie">Got it!</button>`;
+
 // creating textcontent for newly created element
 header.prepend(message); // prepend adds html as the first child of selected html element, here we're adding our msg in header element
 // to add element as the last child of selected html element, we use append method
