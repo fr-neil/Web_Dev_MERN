@@ -79,7 +79,7 @@ class App {
 
     L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
       attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributor s',
     }).addTo(this.#map);
 
     this.#map.on("click", this._showForm.bind(this));
