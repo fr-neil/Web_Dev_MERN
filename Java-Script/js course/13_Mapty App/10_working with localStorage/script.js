@@ -511,7 +511,7 @@ class App {
         })
       )
       .setPopupContent(
-        `${workout.type === "running" ? "🏃" : "🚴"} ${workout.description}`
+        `${workout.type === "running" ? "🏃‍♂️" : "🚴‍♀️"} ${workout.description}`
       )
       .openPopup();
   }
@@ -522,7 +522,7 @@ class App {
         <h2 class="workout__title">${workout.description}</h2>
         <div class="workout__details">
           <span class="workout__icon">${
-            workout.type === "running" ? "🏃" : "🚴"
+            workout.type === "running" ? "🏃‍♂️" : "🚴‍♀️"
           }</span>
           <span class="workout__value">${workout.distance}</span>
           <span class="workout__unit">km</span>
@@ -592,12 +592,9 @@ class App {
   _setLocalStorage() {
     localStorage.setItem("workouts", JSON.stringify(this.#workouts));
   }
-  // here, localStorage is an API which the browser provides us
-  // using json.stringyfy we can convert any object or an array to a string
 
   _getLocalStorage() {
     const data = JSON.parse(localStorage.getItem("workouts"));
-    // jon.parse() is used to convert a string to an object
 
     if (!data) return;
 
