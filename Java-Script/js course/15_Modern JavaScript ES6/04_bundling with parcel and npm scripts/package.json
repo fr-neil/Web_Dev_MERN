@@ -1,0 +1,21 @@
+{
+  "name": "445",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.21.0",
+    "leaflet": "^1.7.1",
+    "npx": "^10.2.2",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
+}
