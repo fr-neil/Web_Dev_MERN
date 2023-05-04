@@ -1,5 +1,5 @@
-// Importing Other component or other js script module to use it further
-import ExpenseItem from "./Components/ExpenseItem";
+import Expenses from './Components/Expenses/Expenses';
+
 function App() {
   const expenses = [
     {
@@ -23,20 +23,11 @@ function App() {
     },
   ];
 
-
   return (
     <div>
       <h2>Let's get started!</h2>
-      {/* we can use a component multiple times
-      Scripting languages is not just what we manuplate on screen but also it's about manuplating data to decide what to show on screen
-      here title, amount and date are nothing but the variables or the properties that we are defining for ExpenseItem component to use as props */}
-      <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}></ExpenseItem>
-      <ExpenseItem title={expenses[1].title} amount={expenses[1].amount} date={expenses[1].date}></ExpenseItem>
-      <ExpenseItem title={expenses[2].title} amount={expenses[2].amount} date={expenses[2].date}></ExpenseItem>
-      <ExpenseItem title={expenses[3].title} amount={expenses[3].amount} date={expenses[3].date}></ExpenseItem>
-
-
-    </div >
+      <Expenses items={expenses} />
+    </div>
   );
 }
 
