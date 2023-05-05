@@ -2,10 +2,22 @@ import React from 'react'
 import './NewExpense.css'
 import ExpenseForm from './ExpenseForm'
 
-const NewExpense = () => {
+const NewExpense = (props) => {
+
+    //Communicating data from child to parent, hence onsaveExpenseData used(just as a pointer), however we can name it anything we want
+    // 
+    const saveExpenseDataHandler = (enteredExpenseData) => {
+        const expenseData = {
+            ...enteredExpenseData,
+            id: Math.random().toString()
+        }
+        props.onAddExpense(expenseData)
+    }
+
+
     return (
         <div className='new-expense'>
-            <ExpenseForm />
+            <ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />
         </div>
     )
 }

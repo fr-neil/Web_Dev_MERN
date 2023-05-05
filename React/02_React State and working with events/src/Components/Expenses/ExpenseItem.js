@@ -10,13 +10,6 @@ function ExpenseItem(props) {
     //It returns a function, which then we can call later to assign a new value to that variable
     //State returns an arrey, 1st element is variable itself ans 2nd element is that updating function
 
-    // useState(props.title)
-    const [title, setTitle] = useState(props.title)
-
-    const clickHandler = () => {
-        setTitle('Updated')
-        console.log("Clicked" + title)
-    }
     return (
         // we only can return one root element, so wrapping more elements in div container and parenthesis would help
         <Card className='expense-item'>
@@ -24,10 +17,9 @@ function ExpenseItem(props) {
             (no content between opening and closing tag*/}
             <ExpenseDate date={props.date} />
             <div className='expense-item__description'>
-                <h2>{title}</h2>
+                <h2>{props.title}</h2>
                 <div className='expense-item__price'>₹{props.amount}</div>
             </div>
-            <button onClick={clickHandler}>Change title</button>
         </Card >
     )
 }
