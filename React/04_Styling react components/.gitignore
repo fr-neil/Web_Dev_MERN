@@ -1,0 +1,11 @@
+# Ignore build directories
+build/
+
+# Ignore log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore personal configuration files
+config.json
